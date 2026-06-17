@@ -18,6 +18,3 @@ A minimalist, high-speed conversational interface built to experiment with low-l
 ---
 
 
-```bash
-git clone [https://github.com/mmehwishh/ml-labs.git](https://github.com/mmehwishh/ml-labs.git)
-cd ml-labs
