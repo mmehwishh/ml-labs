@@ -1,27 +1,23 @@
 # ✦ ml-labs
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/Groq-⚡-orange?style=for-the-badge" alt="Groq" />
-  <img src="https://img.shields.io/badge/Machine__Learning-🤖-purple?style=for-the-badge" alt="Machine Learning" />
-</div>
+Welcome to my personal Machine Learning & AI sandbox! 🚀 This repository is a dedicated space for my hands-on experiments, micro-projects, and quick intelligent prototypes as I learn and grow in AI engineering and Data Science.
 
 ---
 
-A curated, highly aesthetic research and development space dedicated to **Machine Learning experiments, Intelligent Systems, and Custom AI Prototypes**. This repository acts as a centralized monorepo housing modular, full-stack data products, fine-tuning scripts, and algorithmic implementations from scratch.
+## 🛠️ My Experiments
 
-> *"Turning raw multi-dimensional vectors into reactive, stateful user experiences."*
+### 1. AI Chat App (Groq & Streamlit)
+A minimalist, high-speed conversational interface built to experiment with low-latency LLM completions and stateful user tracking.
+
+* **Tech Stack:** Python, Streamlit, Groq SDK, Dotenv
+* **Key Learning Takeaways:**
+  * Caching client initializations effectively using `st.cache_resource`.
+  * Tracking multi-turn conversations through active state management (`st.session_state`).
+  * Customizing default Streamlit UI environments with raw CSS injection for a clean, brand-free layout.
 
 ---
 
-## 📂 Repository Structure
 
-The architecture of this repository follows a clean, decoupled folder pattern where each sub-directory is completely atomic with its own local environments and runtime configurations.
-
-```text
-📦 ml-labs
- ┣ 📂 chat-bot                 # Minimalist Streamlit Chat UI leveraging the Groq API SDK
- ┣ 📂 pathforge-ai-core        # Core recommendation algorithms and dataset scaling matrices
- ┣ 📂 spam-detector-app        # Natural Language Processing text processing and vector classification
- ┗ 📄 README.md                # Central directory and indexing documentation
+```bash
+git clone [https://github.com/mmehwishh/ml-labs.git](https://github.com/mmehwishh/ml-labs.git)
+cd ml-labs
